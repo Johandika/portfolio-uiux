@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.color-text-red {
+  color: #c21823;
+}
+
+.color-text-grey {
+  color: #bfbfbf;
+}
+
+.grey {
+  color: #bfbfbf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+}
+
+#navbar {
+  background-color: #121212;
+  font-size: 15px;
+}
+
+#navbar a {
+  color: white;
+}
+
+#footer {
+  background-color: #1e1e1e;
+  color: #bfbfbf;
+}
+
+/* HERO */
+#hero {
+  height: 600px;
+  padding-top: 170px;
+  padding-bottom: 150px;
+}
+
+#hero p {
+  color: #bfbfbf;
+}
+
+#hero h4 {
+  font-weight: 600;
+  color: #fe2e2e;
+}
+
+.btn-danger {
+  background-color: #c21823 !important;
+}
+
+.btn-danger:hover {
+  background-color: #de3232 !important;
+}
+
+/* SKILLS */
+.skill1 {
+  color: #bfbfbf;
+  background-color: #1e1e1e;
+}
+
+#skills .row-skill {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SELECTED PROJECTS */
+.thumbnail {
+  background-color: #1e1e1e;
+}
+
+#projects {
+  padding-top: 80px;
+}
+
+#projects .container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#projects .project {
+  padding: 3rem 0;
+}
+
+/* #projects a img {
+  border-radius: 25px;
+} */
+
+/* HIRE ME */
+#hireme {
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+
+#hireme .background-icons {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  background-color: #c21823;
+}
+
+#hireme .border-icons {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  border: 1.5px solid white;
+}
+
+#hireme p {
+  color: #bfbfbf;
+}
+
+/* REVIEW */
+#review {
+  margin: 150px 0 150px 0;
+}
+
+#review .container-fluid {
+  background-color: #1e1e1e;
+}
+
+#review div .img {
+  width: 300px;
+  height: 340px;
+  background-color: white;
+  margin-top: -140px;
+  margin-left: 25px;
+}
+
+#review img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#review .carousel-inner {
+  padding-top: 5rem;
+}
+
+#banner {
+  margin-bottom: 95px;
+}
+
+/* Medium */
+@media screen and (max-width: 766px) {
+  #hero {
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  #skills .row-skill {
+    width: 90%;
+    align-items: center;
+  }
+
+  #skills .row-skill img {
+    width: 70px;
+  }
+
+  #projects .project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #projects .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #review {
+    margin: 0 0 70px 0;
+  }
+
+  #hireme {
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+}
+
+/* Large */
+@media screen and (max-width: 1199px) {
+  #review div .img {
+    width: 14rem;
+    height: 17rem;
+    background-color: blue;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  #review .carousel-inner {
+    padding: 0;
+  }
+}
+
+#Link {
+  color: rgb(177, 177, 177);
+}
+
+#Link :hover {
+  color: c21823;
+}
