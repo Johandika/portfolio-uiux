@@ -1,11 +1,12 @@
 import React from "react";
+import { logo } from "./../images/logo.png";
 
 export default function Navbar() {
   return (
     <nav id="navbar" className="navbar navbar-expand-lg fixed-top">
       <div className="container justify-content-between">
         <a className="navbar-brand" href="#">
-          <img src={"/src/assets/images/logo.png"} alt="azonix logo" style={{ height: 40 }}></img>
+          <img src={logo} alt="azonix logo" style={{ height: 40 }}></img>
         </a>
         <button
           className="navbar navbar-toggler"

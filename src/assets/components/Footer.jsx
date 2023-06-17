@@ -1,5 +1,6 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
+import { logo } from "./../images/logo.png";
 
 export default function Footer() {
   return (
@@ -28,7 +29,7 @@ export default function Footer() {
           </div>
           <div className="col-md-3 order-1 order-md-3">
             <a href="#">
-              <img src={"./assets/images/logo.png"} alt="azonix logo" style={{ height: 40 }}></img>
+              <img src={logo} alt="azonix logo" style={{ height: 40 }}></img>
             </a>
           </div>
         </div>
