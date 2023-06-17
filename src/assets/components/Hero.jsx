@@ -41,11 +41,13 @@ export default function Hero() {
             <div>
               <a
                 href="https://drive.google.com/file/d/1Wxj5djjwiyWghw4RaXnIQZZ6YpqOAxWB/view?usp=drive_link"
+                target="_blank"
                 className="btn btn-danger px-4 py-3 me-md-3 me-2">
                 Get Showcase
               </a>
               <a
                 href="https://drive.google.com/file/d/1EyHA4RoA0VRr6BnF9MhfCTtcnTzW-pem/view?usp=sharing"
+                target="_blank"
                 className="btn border-2 border-danger px-4 py-3 me-md-3 me-2 ">
                 Get Resume
               </a>
@@ -53,15 +55,17 @@ export default function Hero() {
             <div className="mt-4">
               <a
                 href="https://www.instagram.com/azonix_designer/"
+                target="_blank"
                 className="ms-md-0 me-md-3 mx-2 ">
                 <Icon.Instagram color="#bfbfbf" size={25} />
               </a>
               <a
                 href="https://api.whatsapp.com/send/?phone=6282370323310&text=Hallo+Johandika%2C+I+visit+from+your+website&type=phone_number&app_absent=0"
+                target="_blank"
                 className="mx-md-3 mx-2 ">
                 <Icon.Whatsapp color="#bfbfbf" size={25} />
               </a>
-              <a href="#" className="mx-md-3 mx-2 ">
+              <a href="https://github.com/Johandika" target="_blank" className="mx-md-3 mx-2 ">
                 <Icon.Github color="#bfbfbf" size={25} />
               </a>
             </div>
