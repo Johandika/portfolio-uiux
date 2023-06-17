@@ -7,10 +7,12 @@ export default function Footer() {
       <div className="container-fluid py-4">
         <div className="row text-center align-items-center">
           <div className="col-md-3 order-2 order-md-1 py-4 py-md-0">
-            <a href="#" className="mx-2 mx-md-3">
+            <a href="https://www.instagram.com/azonix_designer/" className="mx-2 mx-md-3">
               <Icon.Instagram color="#bfbfbf" size={25} />
             </a>
-            <a href="#" className="mx-2 mx-md-3">
+            <a
+              href="https://api.whatsapp.com/send/?phone=6282370323310&text=Hallo+Johandika%2C+I+visit+from+your+website&type=phone_number&app_absent=0"
+              className="mx-2 mx-md-3">
               <Icon.Whatsapp color="#bfbfbf" size={25} />
             </a>
             <a href="#" className="mx-2 mx-md-3 ">
@@ -22,7 +24,10 @@ export default function Footer() {
           </div>
           <div className="col-md-3 order-1 order-md-3">
             <a href="#">
-              <img src="logo.png" alt="azonix logo" style={{ height: 40 }}></img>
+              <img
+                src={"/src/assets/images/logo.png"}
+                alt="azonix logo"
+                style={{ height: 40 }}></img>
             </a>
           </div>
         </div>

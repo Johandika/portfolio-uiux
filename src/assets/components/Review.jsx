@@ -21,15 +21,16 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src="public\img\kamal-ali.jpeg" alt="Kamal Ali" />
+                      <img src={"/src/assets/images/kamal-ali.jpeg"} alt="Kamal Ali" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
                     <h5 className="text-white fw-semibold mb-0">Kamal Ali</h5>
                     <small className="color-text-red mb-4">Founder, Ardour & Digita1</small>
                     <p className="color-text-grey mt-3">
-                      I'm from Turkey and met Johan on Instagram, he does all my visual and print needs. He is also an
-                      expert in wordpress and website creation. I always contact him for all my needs.
+                      I'm from Turkey and met Johan on Instagram, he does all my visual and print
+                      needs. He is also an expert in wordpress and website creation. I always
+                      contact him for all my needs.
                     </p>
                   </div>
                 </div>
@@ -42,16 +43,18 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src="public\img\joanna.jpeg" alt="Joanna Images" />
+                      <img src={"/src/assets/images/joanna.jpeg"} alt="Joanna Images" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
                     <h5 className="text-white fw-semibold mb-0">Joanna Lucille Roy</h5>
-                    <small className="color-text-red mb-4">Project Manager, Garnet Inn & Suites</small>
+                    <small className="color-text-red mb-4">
+                      Project Manager, Garnet Inn & Suites
+                    </small>
                     <p className="color-text-grey mt-3">
-                      We have known Johan for a long time, as I remember our first project was the Garnet Inn & Suites
-                      project which was built in Orlando, America. Why did we choose Johan? because it is communicative,
-                      dynamic, and can do everything.
+                      We have known Johan for a long time, as I remember our first project was the
+                      Garnet Inn & Suites project which was built in Orlando, America. Why did we
+                      choose Johan? because it is communicative, dynamic, and can do everything.
                     </p>
                   </div>
                 </div>
@@ -64,15 +67,16 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src="public\img\mehul-bhujwala.jpeg" alt="Mehul Bhujwala" />
+                      <img src={"/src/assets/images/mehul-bhujwala.jpeg"} alt="Mehul Bhujwala" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
                     <h5 className="text-white fw-semibold mb-0">Mehul Bhujwala</h5>
                     <small className="color-text-red mb-4">Founder, Slashtheory</small>
                     <p className="color-text-grey mt-3">
-                      Johan is the best, I met Johan from the behance platform. I chose Johan for all kinds of our
-                      business needs, starting from making logos, company cards, diagrams, websites and all other needs.
+                      Johan is the best, I met Johan from the behance platform. I chose Johan for
+                      all kinds of our business needs, starting from making logos, company cards,
+                      diagrams, websites and all other needs.
                     </p>
                   </div>
                 </div>
@@ -85,15 +89,15 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src="public\img\demoiselle-elox.jpg" alt="Demoiselle Elox" />
+                      <img src={"/src/assets/images/demoiselle-elox.jpg"} alt="Demoiselle Elox" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
                     <h5 className="text-white fw-semibold mb-0">Demoiselle Elox</h5>
                     <small className="color-text-red mb-4">Owner, Paparazi Union</small>
                     <p className="color-text-grey mt-3">
-                      Project Caribbean was our initial project, Johan did everything himself on a tight schedule, he
-                      made awesome banners, logos and posters. Johan is amazing.
+                      Project Caribbean was our initial project, Johan did everything himself on a
+                      tight schedule, he made awesome banners, logos and posters. Johan is amazing.
                     </p>
                   </div>
                 </div>

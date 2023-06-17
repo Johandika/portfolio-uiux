@@ -9,7 +9,7 @@ export default function Banner() {
             <h1 className="fw-bold display-4 text-white ">Let's Work Together</h1>
             <p className="grey">
               For business inquiry please send me email to{" "}
-              <a href="">
+              <a href="mailto:johanelyosse@gmail.com?subject=Collaborate%20With%20You&body=Hello%20Johandika">
                 <span className="text-white text-decoration-underline">johanelyosse@gmail.com</span>
               </a>
             </p>

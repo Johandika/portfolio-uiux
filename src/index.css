@@ -64,6 +64,14 @@ body {
   background-color: #de3232 !important;
 }
 
+.border-danger {
+  color: white !important;
+}
+
+.border-danger:hover {
+  color: #de3232 !important;
+}
+
 /* SKILLS */
 .skill1 {
   color: #bfbfbf;

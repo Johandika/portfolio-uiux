@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav id="navbar" className="navbar navbar-expand-lg fixed-top">
       <div className="container justify-content-between">
         <a className="navbar-brand" href="#">
-          <img src="logo.png" alt="azonix logo" style={{ height: 40 }}></img>
+          <img src={"/src/assets/images/logo.png"} alt="azonix logo" style={{ height: 40 }}></img>
         </a>
         <button
           className="navbar navbar-toggler"

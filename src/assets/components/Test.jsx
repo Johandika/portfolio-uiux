@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function Test() {
   return (
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="public\img\codingskill1.png" className="d-block w-100" alt="..." />
+          <img src={"/src/assets/images/codingskill1.png"} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="public\img\codingskill2.png" className="d-block w-100" alt="..." />
+          <img src={"/src/assets/images/codingskill2.png"} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
           <img src="..." className="d-block w-100" alt="..." />

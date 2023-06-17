@@ -40,14 +40,25 @@ export default function Hero() {
             </p>
             <div>
               <a
-                href="mailto:johanelyosse@gmail.com?subject=Collaborate%20With%20You&body=Hello%20Johandika"
+                href="https://drive.google.com/file/d/1Wxj5djjwiyWghw4RaXnIQZZ6YpqOAxWB/view?usp=drive_link"
                 className="btn btn-danger px-4 py-3 me-md-3 me-2">
-                Email Me
+                Get Showcase
               </a>
-              <a href="#" className="mx-md-3 mx-2">
+              <a
+                href="https://drive.google.com/file/d/1EyHA4RoA0VRr6BnF9MhfCTtcnTzW-pem/view?usp=sharing"
+                className="btn border-2 border-danger px-4 py-3 me-md-3 me-2 ">
+                Get Resume
+              </a>
+            </div>
+            <div className="mt-4">
+              <a
+                href="https://www.instagram.com/azonix_designer/"
+                className="ms-md-0 me-md-3 mx-2 ">
                 <Icon.Instagram color="#bfbfbf" size={25} />
               </a>
-              <a href="#" className="mx-md-3 mx-2">
+              <a
+                href="https://api.whatsapp.com/send/?phone=6282370323310&text=Hallo+Johandika%2C+I+visit+from+your+website&type=phone_number&app_absent=0"
+                className="mx-md-3 mx-2 ">
                 <Icon.Whatsapp color="#bfbfbf" size={25} />
               </a>
               <a href="#" className="mx-md-3 mx-2 ">
@@ -56,11 +67,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
-            <img
-              src="public\img\johandika edit web profile azonix (1)-min.png"
-              alt=""
-              className="w-75"
-            />
+            <img src={"/src/assets/images/johandikaa.png"} alt="" className="w-75" />
           </div>
         </div>
       </div>
