@@ -28,10 +28,7 @@ export default function Footer() {
           </div>
           <div className="col-md-3 order-1 order-md-3">
             <a href="#">
-              <img
-                src={"/src/assets/images/logo.png"}
-                alt="azonix logo"
-                style={{ height: 40 }}></img>
+              <img src={"./assets/images/logo.png"} alt="azonix logo" style={{ height: 40 }}></img>
             </a>
           </div>
         </div>
