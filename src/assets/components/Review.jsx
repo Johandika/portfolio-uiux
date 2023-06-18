@@ -1,4 +1,8 @@
 import React from "react";
+import kamal_ali from "../../assets/images/kamal_ali.jpeg";
+import joanna from "../../assets/images/joanna.jpeg";
+import mehul_bhujwala from "../../assets/images/mehul_bhujwala.jpeg";
+import demoiselle_elox from "../../assets/images/demoiselle_elox.jpg";
 
 export default function Review() {
   return (
@@ -21,7 +25,7 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src={"/src/assets/images/kamal-ali.jpeg"} alt="Kamal Ali" />
+                      <img src={kamal_ali} alt="Kamal Ali" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
@@ -43,7 +47,7 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src={"/src/assets/images/joanna.jpeg"} alt="Joanna Images" />
+                      <img src={joanna} alt="Joanna Images" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
@@ -67,7 +71,7 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src={"/src/assets/images/mehul-bhujwala.jpeg"} alt="Mehul Bhujwala" />
+                      <img src={mehul_bhujwala} alt="Mehul Bhujwala" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">
@@ -89,7 +93,7 @@ export default function Review() {
                 <div className="row justify-content-center">
                   <div className="col-md-4 col-12">
                     <div className="img">
-                      <img src={"/src/assets/images/demoiselle-elox.jpg"} alt="Demoiselle Elox" />
+                      <img src={demoiselle_elox} alt="Demoiselle Elox" />
                     </div>
                   </div>
                   <div className="col-md-6 col-12 mt-4 mt-md-0">

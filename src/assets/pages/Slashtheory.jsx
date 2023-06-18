@@ -1,6 +1,15 @@
 import React from "react";
 import "./project.css";
 import { HashLink } from "react-router-hash-link";
+import Thumbnails2 from "../images/Thumbnails2.png";
+import chatslashtheory from "../images/chatslashtheory.jpg";
+import Slashtheory_sketch from "../images/Slashtheory_sketch.jpg";
+import slashtheory_logo_white_background from "../images/slashtheory_logo_white_background.jpg";
+import slashtheory_logo_navy_background from "../images/slashtheory_logo_navy_background.jpg";
+import mindmap_slashtheory from "../images/mindmap_slashtheory.jpg";
+import inspiration_slashtheory from "../images/inspiration_slashtheory.jpg";
+import colors_slashtheory from "../images/colors_slashtheory.jpg";
+import mockup_slashtheory from "../images/mockup_slashtheory.jpg";
 
 export default function Slashtheory() {
   return (
@@ -24,11 +33,7 @@ export default function Slashtheory() {
         </div>
         <div className="row mx-auto">
           <figure className="col-12 text-center d-flex flex-column gap-2">
-            <img
-              src={"/src/assets/images/Thumbnails2.png"}
-              alt="Cheetah_Portfolio"
-              className="img-thumbnail"
-            />
+            <img src={Thumbnails2} alt="Cheetah_Portfolio" className="img-thumbnail" />
             <figcaption className="figure-caption">
               <em>Cheetah Web Design</em>
             </figcaption>
@@ -56,7 +61,7 @@ export default function Slashtheory() {
           <div className="col">
             <figure className="col-lg-12 col-10 text-center d-flex flex-column gap-2 mx-auto my-4">
               <img
-                src={"/src/assets/images/chatslashtheory.jpg"}
+                src={chatslashtheory}
                 alt="slashtheory chat with clients"
                 className="img-fluid"
               />
@@ -189,7 +194,7 @@ export default function Slashtheory() {
               <figure className="col-lg-8 col-10 text-center d-flex flex-column gap-2 mx-auto my-4">
                 <div className=" d-flex gap-0">
                   <img
-                    src={"/src/assets/images/Slashtheory sketch.jpg"}
+                    src={Slashtheory_sketch}
                     alt="slashtheory chat with clients"
                     className="img-fluid"
                   />
@@ -209,14 +214,14 @@ export default function Slashtheory() {
                 <div className=" d-flex gap-0">
                   <div className="col-6">
                     <img
-                      src={"/src/assets/images/slashtheory logo (white background).jpg"}
+                      src={slashtheory_logo_white_background}
                       alt="slashtheory chat with clients"
                       className="img-fluid"
                     />
                   </div>
                   <div className="col-6">
                     <img
-                      src={"/src/assets/images/slashtheory logo (navy background).jpg"}
+                      src={slashtheory_logo_navy_background}
                       alt="slashtheory chat with clients"
                       className="img-fluid"
                     />
@@ -244,11 +249,7 @@ export default function Slashtheory() {
             </p>
             <div className="row">
               <figure className="col-lg-10 col-md-8 text-center d-flex flex-column gap-2 mx-auto">
-                <img
-                  src={"/src/assets/images/mindmap-slashtheory.jpg"}
-                  alt="Mindmap-Slashtheory"
-                  className="img-fluid"
-                />
+                <img src={mindmap_slashtheory} alt="Mindmap-Slashtheory" className="img-fluid" />
                 <figcaption className="figure-caption">
                   <em>Sitemap</em>
                 </figcaption>
@@ -268,7 +269,7 @@ export default function Slashtheory() {
             <div className="row">
               <figure className="col-lg-8 col-md-8 col text-center d-flex flex-column gap-2 mx-auto">
                 <img
-                  src={"/src/assets/images/inspiration-slashtheory.jpg"}
+                  src={inspiration_slashtheory}
                   alt="inspirations-slashtheory"
                   className="img-fluid"
                 />
@@ -290,11 +291,7 @@ export default function Slashtheory() {
             </p>
             <div className="row">
               <figure className="col-md-4 col-8 text-center d-flex flex-column gap-2 mx-auto">
-                <img
-                  src={"/src/assets/images/colors-slashtheory.jpg"}
-                  alt="colors"
-                  className="img-thumbnail"
-                />
+                <img src={colors_slashtheory} alt="colors" className="img-thumbnail" />
                 <figcaption className="figure-caption">
                   <em>Colors</em>
                 </figcaption>
@@ -312,11 +309,7 @@ export default function Slashtheory() {
             </p>
             <div className="row">
               <figure className="col-lg-8 col-md-8 col text-center d-flex flex-column gap-2 mx-auto">
-                <img
-                  src={"/src/assets/images/mockup-slashtheory.jpg"}
-                  alt="Mockup-Slashtheory"
-                  className=" img-fluid "
-                />
+                <img src={mockup_slashtheory} alt="Mockup-Slashtheory" className=" img-fluid " />
                 <figcaption className="figure-caption">
                   <em>Mockup</em>
                 </figcaption>
@@ -334,11 +327,7 @@ export default function Slashtheory() {
           </p>
           <div className="row">
             <figure className="col-lg-8 col-md-8 col text-center d-flex flex-column gap-2 mx-auto">
-              <img
-                src={"/src/assets/images/Thumbnails2.png"}
-                alt="Mockup"
-                className=" img-fluid "
-              />
+              <img src={Thumbnails2} alt="Mockup" className=" img-fluid " />
               <figcaption className="figure-caption">
                 <em>Mockup</em>
               </figcaption>

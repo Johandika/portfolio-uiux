@@ -1,6 +1,7 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
 import Typed from "typed.js";
+import johandikaa from "../../assets/images/johandikaa.png";
 
 export default function Hero() {
   // Create reference to store the DOM element containing the animation
@@ -71,7 +72,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
-            <img src={"/src/assets/images/johandikaa.png"} alt="" className="w-75" />
+            <img src={johandikaa} alt="" className="w-75" />
           </div>
         </div>
       </div>

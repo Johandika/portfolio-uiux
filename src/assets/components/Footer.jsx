@@ -1,6 +1,6 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
-import { logo } from "./../images/logo.png";
+import logo from "../../assets/images/logo.png";
 
 export default function Footer() {
   return (
