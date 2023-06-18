@@ -2,7 +2,7 @@ import React from "react";
 import "./project.css";
 import { HashLink } from "react-router-hash-link";
 import user from "../images/user.jpg";
-import drone from "../images/drone.gif";
+import drone from "../../assets/images/drone.gif";
 import Thumbnails4 from "../images/Thumbnails4.png";
 import form2 from "../images/form2.jpg";
 import discussion from "../images/discussion.jpg";
