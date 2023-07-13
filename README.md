@@ -10,4 +10,4 @@ You can see the live website by clicking the link below.
 
 **[Live Website](https://johandika-portfolio.vercel.app/)**
 
-![QR Expo, Scan with Expo App](/expo-go.svg)
+![QR Expo, Scan with Expo App](/Portfolio_website.jpg)
