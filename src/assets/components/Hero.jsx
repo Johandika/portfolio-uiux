@@ -47,7 +47,7 @@ export default function Hero() {
                 Get Showcase
               </a>
               <a
-                href="https://drive.google.com/file/d/1EyHA4RoA0VRr6BnF9MhfCTtcnTzW-pem/view?usp=sharing"
+                href="https://drive.google.com/file/d/10xKtVOFb_JZo0tmNucM6WWD9m9IJv58X/view?usp=sharing"
                 target="_blank"
                 className="btn border-2 border-danger px-4 py-3 me-md-3 me-2 ">
                 Get Resume
