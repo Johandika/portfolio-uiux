@@ -28,7 +28,7 @@ export default function Skills() {
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4 ">
-            <a href="https://laravel.com/" target="_blank">
+            <a href="https://nextjs.org/" target="_blank">
               <img src={nextjs} alt="Next JS Logo"  />
             </a>
           </div>
@@ -38,7 +38,7 @@ export default function Skills() {
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://react.dev/" target="_blank">
+            <a href="https://tailwindcss.com/" target="_blank">
               <img src={tailwind} alt="Tailwind"  />
             </a>
           </div>
@@ -48,33 +48,33 @@ export default function Skills() {
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
+            <a href="https://nodejs.org/en" target="_blank">
               <img src={nodejs} alt="Nodejs Logo"  />
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
+            <a href="https://expressjs.com/" target="_blank">
               <img src={expressjs} alt="Expressjs" />
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
+            <a href="https://redux.js.org/" target="_blank">
               <img src={redux} alt="Redux logo"  />
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
+            <a href="https://dbeaver.io/" target="_blank">
               <img src={dbeaver} alt="Dbeaver logo"  />
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
+            <a href="https://www.postgresql.org/" target="_blank">
               <img src={postgre} alt="Postgre logo"  />
             </a>
           </div>
           <div className="col-md-2 col-4 mb-4">
-            <a href="https://getbootstrap.com/" target="_blank">
-              <img src={logopostman} alt="Postgre logo"  />
+            <a href="https://www.postman.com/company/press-media/" target="_blank">
+              <img src={logopostman} alt="Postman logo"  />
             </a>
           </div>
          
